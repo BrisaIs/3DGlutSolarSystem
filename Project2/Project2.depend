@@ -1,0 +1,110 @@
+# depslib dependency file v1.0
+1493792646 source:e:\fac\graph\rec\project2\main.cpp
+	"Utilities.h"
+	"Point3D.h"
+	"Polygon3D.h"
+	<GL/glut.h>
+	"Matrix.h"
+	"Sphere3D.h"
+	"Operators3D.h"
+	"SolarSystem.h"
+
+1493074018 e:\fac\graph\rec\project2\utilities.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<GL/glut.h>
+	"Point2D.cpp"
+	"Line.cpp"
+	"Matrix.cpp"
+	"Operators2D.cpp"
+	"Polygon2D.cpp"
+
+1066740114 e:\sw\glut\include\gl\glut.h
+	"freeglut_std.h"
+
+1413566904 e:\sw\glut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1301114764 e:\sw\glut\include\gl\gl.h
+
+1301114764 e:\sw\glut\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1493311676 e:\fac\graph\rec\project2\point3d.h
+	"Utilities.h"
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1493082077 e:\fac\graph\rec\project2\polygon3d.h
+	"Utilities.h"
+	<stdio.h>
+	<stdlib.h>
+	"Point3D.h"
+
+1493311589 source:e:\fac\graph\rec\project2\point3d.cpp
+	"Point3D.h"
+	<math.h>
+
+1493698537 source:e:\fac\graph\rec\project2\polygon3d.cpp
+	"Polygon3D.h"
+	"Utilities.h"
+
+1493697924 e:\fac\graph\rec\project2\matrix.cpp
+	"Matrix.h"
+	<math.h>
+
+1493345343 e:\fac\graph\rec\project2\matrix.h
+	"Utilities.h"
+	<math.h>
+	"Point3D.h"
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1493109013 e:\fac\graph\rec\project2\sphere3d.h
+	"Point3D.h"
+	"Matrix.h"
+	"Utilities.h"
+	<math.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+
+1493681700 e:\fac\graph\rec\project2\operators3d.h
+	"Point3D.h"
+	"Matrix.h"
+	<math.h>
+	"Polygon3D.h"
+
+1493697924 source:e:\fac\graph\rec\project2\matrix.cpp
+	"Matrix.h"
+	<math.h>
+
+1493698521 source:e:\fac\graph\rec\project2\operators3d.cpp
+	"Operators3D.h"
+
+1493379733 source:e:\fac\graph\rec\project2\sphere3d.cpp
+	"Sphere3D.h"
+
+1493200082 e:\fac\graph\rec\project2\solarsystem.h
+	"Point3D.h"
+	"Matrix.h"
+	"Sphere3D.h"
+	"Operators3D.h"
+	<cstdio>
+	<stack>
+
+1493792512 source:e:\fac\graph\rec\project2\solarsystem.cpp
+	"SolarSystem.h"
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Project2" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="E:/Sw/GLUT/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Project2" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="E:/Sw/GLUT/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="E:/Sw/GLUT/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="E:/Sw/GLUT/lib" />
+		</Linker>
+		<Unit filename="Matrix.cpp" />
+		<Unit filename="Matrix.h" />
+		<Unit filename="Operators3D.cpp" />
+		<Unit filename="Operators3D.h" />
+		<Unit filename="Point3D.cpp" />
+		<Unit filename="Point3D.h" />
+		<Unit filename="Polygon3D.cpp" />
+		<Unit filename="Polygon3D.h" />
+		<Unit filename="SolarSystem.cpp" />
+		<Unit filename="SolarSystem.h" />
+		<Unit filename="Sphere3D.cpp" />
+		<Unit filename="Sphere3D.h" />
+		<Unit filename="Utilities.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
